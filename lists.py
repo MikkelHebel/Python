@@ -21,3 +21,8 @@ print(lists[1][-1])
 # Grab all the values from the beginning to value 10
 numberList = [10, 20, 30, 40, 50, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
 print(numberList[:10])
+
+
+# Check for word in list
+if 'heyas' in ['hello', 'test', 'world', 'heyas']:
+    print('Found it!')
