@@ -26,3 +26,9 @@ print(numberList[:10])
 # Check for word in list
 if 'heyas' in ['hello', 'test', 'world', 'heyas']:
     print('Found it!')
+
+
+# List of suppliesg
+supplies = ['pens', 'staplers', 'flame-throwers', 'binders']
+for i in range(len(supplies)):
+    print('Index ' + str(i) + ' in supplies is: ' + supplies[i])
